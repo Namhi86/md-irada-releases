@@ -1,0 +1,16 @@
+{
+  "app": "MD IRada",
+  "product_id": "md-rada-cn",
+  "version": "2.9.0",
+  "downloadUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRada_v2.9.0.zip",
+  "sha256": "cd2bf8d8b1be013bf9431c56189d68c9a1a16763f1434f18785623561747e3b7",
+  "exe_sha256": "abf6456609bb22c1fe12e0a6bffac2501c0b7ea80fa2b14086983cce322725e7",
+  "mandatory": false,
+  "releaseNotes": "MD IRada v2.9.0: Tích hợp đồng bộ Bản quyền MD License Control (MDRADA- + 22 ký tự), hiển thị Mã máy + Copy + Hạn dùng + Phiên bản trên thanh chính, mở cửa sổ tức thì < 0.8s và tối ưu tốc độ tải .m3u8 Hot Trend + TTS 4 luồng.",
+  "changelog": [
+    "Đổi tên chính thức sang MD IRada v2.9.0",
+    "Hiển thị trực tiếp Mã máy + Nút Copy + Thời gian sử dụng + Phiên bản ngay trên đầu giao diện",
+    "Sửa lỗi khởi động: bấm 1 lần hiện cửa sổ ngay lập tức (< 0.8s), bấm lần 2 tự đưa cửa sổ đang mở lên trước",
+    "Tích hợp đầy đủ Kích hoạt từ xa, Khóa máy từ xa và Update OTA từ xa đồng bộ với MD License Center"
+  ]
+}
