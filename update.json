@@ -1,12 +1,12 @@
 {
   "app": "MD IRada",
   "product_id": "md-rada-cn",
-  "version": "2.9.3",
-  "downloadUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRada_v2.9.3.zip",
-  "sha256": "6501393a0144a9d3091c913c825a6f3fefca89c48c8cd961e6aa12484763b932",
-  "exe_sha256": "b06a0d1c7af43f4b7501c21669e677e76453b6bff6560a519fb1923e089633bd",
+  "version": "2.9.6",
+  "downloadUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_v2.9.6.zip",
+  "sha256": "8554b1827c4ca176657631c5d6f0144ab40b3b4e7c81ba4df8e9efb4a3226dd3",
+  "exe_sha256": "8204a61afa03201ecf0bf7b6ccbf088c80611fdf322568206b5920ea9f150d0b",
   "mandatory": false,
-  "releaseNotes": "MD IRada v2.9.3: giao diện mới nền sáng; Phim AI tách 2 hướng Phim nhiều tập ngắn / Phim dài, luôn giữ nguyên thời lượng; dán được nhiều khóa GenMax, tự đổi khóa khi lỗi; kèm các sửa lỗi thư mục lưu, Robot 24/7, Kho chờ.",
+  "releaseNotes": "MD IRADA v2.9.6: giao diện mới nền sáng; Phim AI tách 2 hướng Phim nhiều tập ngắn / Phim dài, luôn giữ nguyên thời lượng; dán được nhiều khóa GenMax, tự đổi khóa khi lỗi; kèm các sửa lỗi thư mục lưu, Robot 24/7, Kho chờ.",
   "changelog": [
     "Giao diện mới nền sáng, menu gọn 8 mục, màn kích hoạt bản quyền và logo mới",
     "Phim AI còn 2 hướng rõ ràng: Phim nhiều tập ngắn (mỗi tập 1 video) và Phim dài (phim trọn bộ giữ nguyên, phim nhiều tập nối thành 1 video)",
@@ -24,9 +24,19 @@
     "Robot 24/7 không còn đứng im khi gặp lỗi tạm thời: tự chạy lại sau 15 giây",
     "Robot không còn tự tắt khi một lượt không tìm được phim mới: nghỉ 10 phút rồi tự thử lại",
     "Tắt mở lại phần mềm, Robot đếm tiếp chỉ tiêu, không cào lại từ đầu",
-    "Hàng chờ chỉ giữ số tập bằng số luồng render (tối đa 20), phần còn lại nằm ở Kho chờ và tự vào dần; không còn đẩy hàng trăm tập và tải trước đầy ổ đĩa"
+    "Hàng chờ chỉ giữ số tập bằng số luồng render (tối đa 20), phần còn lại nằm ở Kho chờ và tự vào dần; không còn đẩy hàng trăm tập và tải trước đầy ổ đĩa",
+    "Phim nhiều tập ngắn: kho đang chọn toàn phim 1 file thì tự lấy thêm từ kho Mao Đài AI; không có phim thì báo rõ, không tự chuyển tab",
+    "Tự chạy 24/7 Phim AI: bỏ ô Số bộ mỗi đợt (mỗi đợt tự lấy tối đa 2 bộ), ô Dừng sau (bộ) được tôn trọng cả khi bấm Lấy ngay",
+    "GenMax bảo trì (503) hoặc giới hạn tốc độ (429): chờ lâu hơn rồi tự chạy lại tập, không render lại liên tục tới hết lượt",
+    "Tên phần mềm hiển thị MD IRADA kèm phiên bản trên cửa sổ, giao diện và file tải về",
+    "Tiến trình tối đa 22 video: render xong 1 video mới bổ sung 1 tập, không quét trước để dồn hàng trăm tập",
+    "Bộ phim dài đang làm dở được nhớ và tự nạp tiếp từng tập (thay cho Kho chờ); Robot không cào bộ mới khi còn bộ đang làm dở",
+    "Kiểm tra máy chủ video trước khi nạp: kho không tải được từ máy này (VD Mao Đài AI) tự bỏ qua, không còn hàng loạt tập lỗi",
+    "Tập hỏng sẵn ở nguồn (lỗi 502/404) được bỏ qua êm trước khi nạp, không còn hiện hàng loạt dòng lỗi; Phim dài không nhận bộ thiếu tập",
+    "Phim nhiều tập ngắn: hết phim AI nhiều tập thì tự lấy từ Bảo Phong · Tất Cả Phim Ngắn và Lượng Tử · Hoạt Hình TQ 3D; báo đúng lý do khi chưa có phim",
+    "Không nạp bộ mới khi đã đủ 22 video; nút Xóa và luồng render không còn bị chậm vì kiểm tra tập"
   ],
-  "patchUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRada_update_v2.9.3.zip",
-  "patchSha256": "8d52e485e186d76e5b9c627bff9ddc7bc1c47a3524e073501ed6a0e6ed42ae73",
+  "patchUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_update_v2.9.6.zip",
+  "patchSha256": "93df9019a7bbfc054583275c4d4b4e920d544e0ada1308d0b1e74544e9748dd1",
   "patchBaseVersion": "2.9.1"
 }
