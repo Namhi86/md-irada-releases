@@ -1,12 +1,12 @@
 {
   "app": "MD IRada",
   "product_id": "md-rada-cn",
-  "version": "2.9.6",
-  "downloadUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_v2.9.6.zip",
-  "sha256": "8554b1827c4ca176657631c5d6f0144ab40b3b4e7c81ba4df8e9efb4a3226dd3",
-  "exe_sha256": "8204a61afa03201ecf0bf7b6ccbf088c80611fdf322568206b5920ea9f150d0b",
+  "version": "2.9.8",
+  "downloadUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_v2.9.8.zip",
+  "sha256": "cafaff46278d0f7945e966a9af9849b65ff4d17fc8fb8f4a980bdb16025927a7",
+  "exe_sha256": "917137aeae9a1c2b5f141dd2e3e16489ce7f39a4dc4df5d4a481d09f3b3ac0d9",
   "mandatory": false,
-  "releaseNotes": "MD IRADA v2.9.6: giao diện mới nền sáng; Phim AI tách 2 hướng Phim nhiều tập ngắn / Phim dài, luôn giữ nguyên thời lượng; dán được nhiều khóa GenMax, tự đổi khóa khi lỗi; kèm các sửa lỗi thư mục lưu, Robot 24/7, Kho chờ.",
+  "releaseNotes": "MD IRADA v2.9.8: giao diện mới nền sáng; Phim AI tách 2 hướng Phim nhiều tập ngắn / Phim dài, luôn giữ nguyên thời lượng; dán được nhiều khóa GenMax, tự đổi khóa khi lỗi; kèm các sửa lỗi thư mục lưu, Robot 24/7, Kho chờ.",
   "changelog": [
     "Giao diện mới nền sáng, menu gọn 8 mục, màn kích hoạt bản quyền và logo mới",
     "Phim AI còn 2 hướng rõ ràng: Phim nhiều tập ngắn (mỗi tập 1 video) và Phim dài (phim trọn bộ giữ nguyên, phim nhiều tập nối thành 1 video)",
@@ -34,9 +34,16 @@
     "Kiểm tra máy chủ video trước khi nạp: kho không tải được từ máy này (VD Mao Đài AI) tự bỏ qua, không còn hàng loạt tập lỗi",
     "Tập hỏng sẵn ở nguồn (lỗi 502/404) được bỏ qua êm trước khi nạp, không còn hiện hàng loạt dòng lỗi; Phim dài không nhận bộ thiếu tập",
     "Phim nhiều tập ngắn: hết phim AI nhiều tập thì tự lấy từ Bảo Phong · Tất Cả Phim Ngắn và Lượng Tử · Hoạt Hình TQ 3D; báo đúng lý do khi chưa có phim",
-    "Không nạp bộ mới khi đã đủ 22 video; nút Xóa và luồng render không còn bị chậm vì kiểm tra tập"
+    "Không nạp bộ mới khi đã đủ 22 video; nút Xóa và luồng render không còn bị chậm vì kiểm tra tập",
+    "Lấy phim nhanh hơn: nhớ 6 giờ các kho chỉ có phim 1 file, lần bấm sau đi thẳng tới kho có phim nhiều tập",
+    "Mỗi bộ phim xuất vào 1 thư mục riêng, tên file bắt đầu bằng Tập 01, Tập 02… để đăng đúng thứ tự",
+    "Phim nhiều tập ngắn có ô chọn Loại phim: Tự động / Chỉ phim ngắn người đóng / Chỉ hoạt hình 3D",
+    "Khung Chạy ngay và Tự chạy 24/7 không còn chạy chồng nhau; báo rõ khi đang đủ 22 video; hỏi xác nhận khi dùng giọng trả phí với số bộ lớn",
+    "Nút Kiểm tra của Gemini, Groq, ElevenLabs thử đúng khóa vừa dán vào ô",
+    "Chế độ Tối đa theo máy (mặc định): tự đo CPU, RAM, card đồ họa của từng máy để chạy nhiều tập cùng lúc nhất có thể, tự giảm khi máy quá tải",
+    "Render dùng tới 5 phiên NVENC trên card GeForce đời driver mới (trước khóa 3) và dùng gần hết luồng CPU"
   ],
-  "patchUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_update_v2.9.6.zip",
-  "patchSha256": "93df9019a7bbfc054583275c4d4b4e920d544e0ada1308d0b1e74544e9748dd1",
+  "patchUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_update_v2.9.8.zip",
+  "patchSha256": "eb2a2cef81f7945c8be2cd745077a9d6c85699056d03e03191cbf22f677dff1b",
   "patchBaseVersion": "2.9.1"
 }
