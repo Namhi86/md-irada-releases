@@ -1,16 +1,16 @@
 {
   "app": "MD IRada",
   "product_id": "md-rada-cn",
-  "version": "2.9.9",
-  "downloadUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_v2.9.9.zip",
-  "sha256": "a66ce1e9991223c8662272f9aa843c489d2199bea1edab07345ffac169309716",
-  "exe_sha256": "4ffb92e428965cca6a476fdb96b0cd92a377264016324dc607dcea515b4ac36e",
+  "version": "3.0.0",
+  "downloadUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_v3.0.0.zip",
+  "sha256": "647233f97712118c04e0a7e4152396baba713aa45536126e193e6731e837cda1",
+  "exe_sha256": "304c23ac3e7d64892a1b6adb88cd3012eed41746ca15b5e051acdc9704d0abc0",
   "mandatory": false,
-  "releaseNotes": "MD IRADA v2.9.9: bộ cài 1 file .exe; tự cập nhật ngay trong app; Hot Trend được làm trước; tự đẩy video lên Google Drive; chống đầy ổ; dán nhiều khóa Gemini/Groq tự xoay khi hết lượt.",
+  "releaseNotes": "MD IRADA v3.0.0: gỡ 6 nền tảng Drama quốc tế (DramaBox, ReelShort, NetShort, ShortMax, DramaWave, PineDrama); còn 26 kho Phim AI và Trailer.",
   "changelog": [],
-  "patchUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_update_v2.9.9.zip",
-  "patchSha256": "79be4bc3d7911f90fa02755e12edb8c7053b88170f4dfc471b03babca7536003",
+  "patchUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_update_v3.0.0.zip",
+  "patchSha256": "ad36ec045864bdd63ac0fde28d9b6f943baf5daffcf425bee827ff8137ab2666",
   "patchBaseVersion": "2.9.9",
-  "installerUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_Setup_v2.9.9.exe",
-  "installerSha256": "a605b977543749c25b7c49a3eb02e0dc697ec4157ba129b3bcc59e6742ef616c"
+  "installerUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_Setup_v3.0.0.exe",
+  "installerSha256": "ab9292ea70ae62c6a3a88cc1321c7ae6e3a3b571926bcbae7b53faa0fbe211da"
 }
