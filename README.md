@@ -1,10 +1,14 @@
 ======================================================================
-HƯỚNG DẪN SỬ DỤNG — MD IRADA v2.9.3 (MD TOOLS ECOSYSTEM)
+HƯỚNG DẪN SỬ DỤNG — MD IRADA v2.9.9 (MD TOOLS ECOSYSTEM)
 ======================================================================
 
-1. MỞ PHẦN MỀM
-   - Giải nén file MD_IRada_v2.9.3.zip ra ổ D:\ hoặc E:\ (KHÔNG để trong Desktop hay thư mục Tạm).
-   - Mở thư mục MD_IRada_v2.9.3 -> nhấp đúp "Mo_MD_IRada.bat" (hoặc "MDIRada.exe").
+1. CÀI ĐẶT & MỞ PHẦN MỀM
+   - Tải file MD_IRADA_Setup_v2.9.9.exe ở mục Releases, bấm đúp để cài. Thư mục mặc định C:\MD IRADA
+     (chọn được ổ khác như D:\MD IRADA). KHÔNG cài vào C:\Program Files.
+   - Windows hiện "Windows đã bảo vệ máy tính": bấm "Thông tin thêm" -> "Vẫn chạy".
+   - Cài xong mở bằng biểu tượng MD IRADA ngoài màn hình hoặc Start Menu.
+   - Đang dùng bản cũ: cài đè vào đúng thư mục cũ, bản quyền / cài đặt / khóa API / phim trong data\ giữ nguyên.
+   - Không muốn dùng bộ cài: tải MD_IRADA_v2.9.9.zip, giải nén ra ổ D:\ hoặc E:\ rồi mở MDIRada.exe.
    - Lần đầu mở có thể mất 5-10 giây. Bấm lần 2 sẽ đưa cửa sổ đang mở lên trước, không mở trùng.
    - Máy chưa có "Microsoft Edge WebView2" (hay gặp ở Windows Server, máy ảo VPS): phần mềm tự mở giao diện
      bằng cửa sổ Edge hoặc Chrome, dùng bình thường. Muốn có cửa sổ riêng, cài WebView2 miễn phí của Microsoft:
@@ -35,12 +39,12 @@ HƯỚNG DẪN SỬ DỤNG — MD IRADA v2.9.3 (MD TOOLS ECOSYSTEM)
      rồi tự thử lại (không tự tắt). Tắt mở lại phần mềm vẫn đếm tiếp chỉ tiêu.
 
 3c. CẬP NHẬT PHẦN MỀM (TỰ ĐỘNG OTA)
-   - Khách đang ở bản v2.9.1 trở lên: khi có bản mới, đầu phần mềm tự hiện dải thông báo bản cập nhật mới
-     (hoặc bấm nút Kiểm tra cập nhật trên thanh công cụ).
-   - Bấm [Cập Nhật Tự Động Ngay] -> đồng ý: phần mềm tự tải gói cập nhật nhỏ (~26 MB), kiểm tra SHA-256,
-     tự tắt và mở lại sau vài giây (lỗi tự khôi phục bản cũ).
-   - Cài đặt, bản quyền, khóa API và phim trong thư mục `data/` được giữ nguyên hoàn toàn.
-   - Nên để phần mềm ở ổ D:\ hoặc E:\ (không để trong C:\Program Files) để phần mềm tự ghi được file cập nhật.
+   - Từ bản 2.9.9: khi có bản mới, đầu phần mềm hiện dải thông báo 1 dòng. Bấm [Cập Nhật Tự Động Ngay] -> phần mềm
+     tự tải gói nhỏ, kiểm tra SHA-256, cài đè ngay trong app rồi tự mở lại (lỗi thì tự quay về bản cũ).
+     Nhật ký: data\logs\cap_nhat.log.
+   - Bản 2.9.3 – 2.9.8 có lỗi khiến nút cập nhật tắt phần mềm mà không cài: hãy tải MD_IRADA_Setup_v2.9.9.exe
+     và cài đè 1 lần. Từ 2.9.9 trở đi phần mềm tự cập nhật.
+   - Cài đặt, bản quyền, khóa API và phim trong thư mục data\ được giữ nguyên hoàn toàn.
 
 4. CÁC MỤC CHÍNH
    - Trailer: chọn trailer -> phần mềm dịch & đốt phụ đề tiếng Việt, giữ tiếng gốc.
@@ -64,6 +68,8 @@ HƯỚNG DẪN SỬ DỤNG — MD IRADA v2.9.3 (MD TOOLS ECOSYSTEM)
    - Gom mọi khóa về một chỗ: Gemini, Groq, GenMax, ElevenLabs, Telegram và nhà cung cấp tự thêm.
    - Khóa luôn hiện dạng che bớt. Để trống ô khóa rồi bấm Lưu = giữ khóa đang dùng.
    - Nút Kiểm tra thử trực tiếp khóa đang dán trong ô và báo kết quả bằng tiếng Việt dễ hiểu.
+   - Gemini và Groq dán được NHIỀU khóa (mỗi khóa 1 dòng): hết lượt (429) tự chuyển khóa khác, chạy song song
+     nhiều khóa. Khóa Gemini nên tạo ở các dự án Google khác nhau để không dùng chung hạn mức.
    - GenMax hỗ trợ dán NHIỀU khóa cùng lúc (mỗi khóa 1 dòng hoặc cách dấu phẩy): tự kiểm tra từng khóa,
      chỉ lưu khóa tốt và tự chuyển sang khóa kế tiếp khi khóa đang dùng bị lỗi hoặc hết credit.
    - Kho giọng GenMax: tích những giọng bạn hay dùng rồi bấm Lưu kho của tôi.
