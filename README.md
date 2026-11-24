@@ -1,14 +1,14 @@
 ======================================================================
-HƯỚNG DẪN SỬ DỤNG — MD IRADA v3.0.0 (MD TOOLS ECOSYSTEM)
+HƯỚNG DẪN SỬ DỤNG — MD IRADA v3.0.1 (MD TOOLS ECOSYSTEM)
 ======================================================================
 
 1. CÀI ĐẶT & MỞ PHẦN MỀM
-   - Tải file MD_IRADA_Setup_v3.0.0.exe ở mục Releases, bấm đúp để cài. Thư mục mặc định C:\MD IRADA
+   - Tải file MD_IRADA_Setup_v3.0.1.exe ở mục Releases, bấm đúp để cài. Thư mục mặc định C:\MD IRADA
      (chọn được ổ khác như D:\MD IRADA). KHÔNG cài vào C:\Program Files.
    - Windows hiện "Windows đã bảo vệ máy tính": bấm "Thông tin thêm" -> "Vẫn chạy".
    - Cài xong mở bằng biểu tượng MD IRADA ngoài màn hình hoặc Start Menu.
    - Đang dùng bản cũ: cài đè vào đúng thư mục cũ, bản quyền / cài đặt / khóa API / phim trong data\ giữ nguyên.
-   - Không muốn dùng bộ cài: tải MD_IRADA_v3.0.0.zip, giải nén ra ổ D:\ hoặc E:\ rồi mở MDIRada.exe.
+   - Không muốn dùng bộ cài: tải MD_IRADA_v3.0.1.zip, giải nén ra ổ D:\ hoặc E:\ rồi mở MDIRada.exe.
    - Lần đầu mở có thể mất 5-10 giây. Bấm lần 2 sẽ đưa cửa sổ đang mở lên trước, không mở trùng.
    - Máy chưa có "Microsoft Edge WebView2" (hay gặp ở Windows Server, máy ảo VPS): phần mềm tự mở giao diện
      bằng cửa sổ Edge hoặc Chrome, dùng bình thường. Muốn có cửa sổ riêng, cài WebView2 miễn phí của Microsoft:
@@ -42,7 +42,7 @@ HƯỚNG DẪN SỬ DỤNG — MD IRADA v3.0.0 (MD TOOLS ECOSYSTEM)
    - Từ bản 2.9.9: khi có bản mới, đầu phần mềm hiện dải thông báo 1 dòng. Bấm [Cập Nhật Tự Động Ngay] -> phần mềm
      tự tải gói nhỏ, kiểm tra SHA-256, cài đè ngay trong app rồi tự mở lại (lỗi thì tự quay về bản cũ).
      Nhật ký: data\logs\cap_nhat.log.
-   - Bản 2.9.3 – 2.9.8 có lỗi khiến nút cập nhật tắt phần mềm mà không cài: hãy tải MD_IRADA_Setup_v3.0.0.exe
+   - Bản 2.9.3 – 2.9.8 có lỗi khiến nút cập nhật tắt phần mềm mà không cài: hãy tải MD_IRADA_Setup_v3.0.1.exe
      và cài đè 1 lần. Từ 2.9.9 trở đi phần mềm tự cập nhật.
    - Cài đặt, bản quyền, khóa API và phim trong thư mục data\ được giữ nguyên hoàn toàn.
 
