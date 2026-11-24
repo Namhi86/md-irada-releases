@@ -1,16 +1,16 @@
 {
   "app": "MD IRada",
   "product_id": "md-rada-cn",
-  "version": "3.0.1",
-  "downloadUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_v3.0.1.zip",
-  "sha256": "0f90c8f9eb20cea43dbaa21cc4863d904fb57c03cec55d0b4b4282a2da290770",
-  "exe_sha256": "c66fd8ed14f56064d71c5cae9de401a1697a359340d33e90a355e58ddd66ffda",
+  "version": "3.0.2",
+  "downloadUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_v3.0.2.zip",
+  "sha256": "af9aa43f8503f18ca808a542d0969b6c90004eaade6718c6cb4493049b5d15f5",
+  "exe_sha256": "636add47e9170ea47e64a3b5fc90a230378e6540c3c690ed28bb0f9c678ee4da",
   "mandatory": false,
-  "releaseNotes": "MD IRADA v3.0.1: chống cào trùng phim trong 30 ngày ở mọi đường nạp (Robot, Hot Trend, bấm tay, dán link, Telegram), nhận ra cùng bộ ở kho khác.",
+  "releaseNotes": "MD IRADA v3.0.2: bỏ qua tập đã xuất trong 30 ngày trước khi tải, không lưu bản trùng, thêm nút Dọn video trùng; chống trùng nhanh hơn.",
   "changelog": [],
-  "patchUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_update_v3.0.1.zip",
-  "patchSha256": "f236140cdcd409899b452e35ecb33bd2073b4f8ff7d9f24c84d94be60f2a9768",
+  "patchUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_update_v3.0.2.zip",
+  "patchSha256": "1ae6a83a8f9f96a62f3ade827edb877f4f09b9b6ffc59005293d517aeb6aeee2",
   "patchBaseVersion": "2.9.9",
-  "installerUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_Setup_v3.0.1.exe",
-  "installerSha256": "ef1fba790742fcaa3ffe306b76a28f7911ae1d5ee6897b188a81ed66ce164000"
+  "installerUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_Setup_v3.0.2.exe",
+  "installerSha256": "b8ff4b2c2c6e6d075b9e999fff9cc14f637a7a0ce175a1e153a6db014767bc76"
 }
