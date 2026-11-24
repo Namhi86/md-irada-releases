@@ -1,16 +1,16 @@
 {
   "app": "MD IRada",
   "product_id": "md-rada-cn",
-  "version": "3.0.0",
-  "downloadUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_v3.0.0.zip",
-  "sha256": "647233f97712118c04e0a7e4152396baba713aa45536126e193e6731e837cda1",
-  "exe_sha256": "304c23ac3e7d64892a1b6adb88cd3012eed41746ca15b5e051acdc9704d0abc0",
+  "version": "3.0.1",
+  "downloadUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_v3.0.1.zip",
+  "sha256": "0f90c8f9eb20cea43dbaa21cc4863d904fb57c03cec55d0b4b4282a2da290770",
+  "exe_sha256": "c66fd8ed14f56064d71c5cae9de401a1697a359340d33e90a355e58ddd66ffda",
   "mandatory": false,
-  "releaseNotes": "MD IRADA v3.0.0: gỡ 6 nền tảng Drama quốc tế (DramaBox, ReelShort, NetShort, ShortMax, DramaWave, PineDrama); còn 26 kho Phim AI và Trailer.",
+  "releaseNotes": "MD IRADA v3.0.1: chống cào trùng phim trong 30 ngày ở mọi đường nạp (Robot, Hot Trend, bấm tay, dán link, Telegram), nhận ra cùng bộ ở kho khác.",
   "changelog": [],
-  "patchUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_update_v3.0.0.zip",
-  "patchSha256": "ad36ec045864bdd63ac0fde28d9b6f943baf5daffcf425bee827ff8137ab2666",
+  "patchUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_update_v3.0.1.zip",
+  "patchSha256": "f236140cdcd409899b452e35ecb33bd2073b4f8ff7d9f24c84d94be60f2a9768",
   "patchBaseVersion": "2.9.9",
-  "installerUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_Setup_v3.0.0.exe",
-  "installerSha256": "ab9292ea70ae62c6a3a88cc1321c7ae6e3a3b571926bcbae7b53faa0fbe211da"
+  "installerUrl": "https://github.com/Namhi86/md-irada-releases/releases/latest/download/MD_IRADA_Setup_v3.0.1.exe",
+  "installerSha256": "ef1fba790742fcaa3ffe306b76a28f7911ae1d5ee6897b188a81ed66ce164000"
 }
